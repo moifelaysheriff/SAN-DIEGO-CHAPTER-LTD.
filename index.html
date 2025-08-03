@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SAN DIEGO CHAPTER LTD. </title>
+    <link rel="shortcut icon" href="SDC Logo.jpg" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo{
+            text-align: center;
+        }
+
+        #logo img{
+            width: 350px;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        nav{
+            width: 100;
+            height: 50px;
+            background-color: rgb(188, 181, 181);
+        }
+
+        nav ul{
+            text-align: center;
+        }
+
+        nav a{
+            text-decoration: none;
+            
+        }
+
+        nav a img{
+            float: left;
+            width: 100px;
+            height: 50px;
+        }
+
+        nav li{
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+            margin-top: 10px;
+         
+        }
+
+        nav li a{
+            font-size: 10px;
+            color: blue;
+            transition: 1s;
+        }
+
+        nav li a:hover{
+            color: orange;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: blue;
+            transition: 1s;
+        }
+
+        h1:hover{
+            color: orangered;
+        }
+
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sub-main{
+            width: 650px;
+            height: 750px;
+            margin: 10px;
+          
+        }
+
+        .sub-main img{
+            width: 650px;
+            height: 650px;
+            border-radius: 15px;
+        }
+
+        .sub-main label{
+            font-size: 30px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:678px) {
+            .sub-main img{
+                width: 460px;
+            }
+            
+        }
+
+        .estate{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sub-est{
+            width: 450px;
+            height: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .sub-est a{
+            text-decoration: none;
+            color: lightcoral;
+        }
+
+        .sub-est img{
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+        }
+
+        .sub-est h2{
+            font-size: 25px;
+        }
+
+        .sub-est a label{
+            font-size: 25px;
+            color: gray;
+        }
+
+        .service{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sub-ser{
+            width: 450px;
+            height: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .sub-ser a{
+            text-decoration: none;
+            color: rgb(16, 232, 52);
+        }
+
+        .sub-ser img{
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+            /* object-fit: contain; */
+        }
+
+        .sub-ser h2{
+            font-size: 25px;
+        }
+
+        .sub-ser a label{
+            font-size: 18px;
+            color: gray;
+        }
+
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sub-gal{
+            width: 450px;
+            height: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .sub-gal a{
+            text-decoration: none;
+            color: rgb(225, 39, 212);
+        }
+
+        .sub-gal img{
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+        }
+
+        .sub-gal h2{
+            font-size: 25px;
+        }
+
+        .sub-gal a label{
+            font-size: 18px;
+            color: gray;
+        }
+
+        .testimony{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sub-test{
+            width: 450px;
+            height: 470px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .sub-test a{
+            text-decoration: none;
+            color: rgb(36, 36, 180);
+        }
+
+        .sub-test img{
+            width: 450px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        .sub-test h2{
+            font-size: 25px;
+        }
+
+        .sub-test a label{
+            font-size: 18px;
+            color: gray;
+        }
+
+
+    </style>
+</head>
+<body>
+    <br>
+    <p id="logo">
+        <a href="#home"> 
+            <img src="DHL.png" alt=""> 
+        </a>
+    </p>
+    <br>
+    <nav> 
+        <ul>
+            <li> <a href="#home"> HOME </a> </li>
+            <li> <a href="#about"> ABOUT </a> </li>
+            <li> <a href="#estate"> ESTATES </a> </li>
+            <li> <a href="#services"> SERVICES </a> </li>
+            <li> <a href="#gallery"> GALLERY </a> </li>
+            <li> <a href="#testimony"> TESTIMONIES </a> </li>
+            <li> <a href="#contact"> CONTACT </a> </li>
+        </ul>
+    </nav>
+    <img src="background.png" alt="" style="width: 100%; " id="home">
+
+    <br><br><br><br>
+    <h1 id="about"> ABOUT US  </h1>
+    <br><br>
+    <div class="main">
+        <div class="sub-main">
+            <img src="about us.jpg" alt="">
+        </div>
+        <div class="sub-main">
+            <p> <br>
+                <label> SAN DIEGO CHAPTER LTD. is an estate company which provides its customers excess care and accountability. <br><br> With us, you can easily and affordably own your own home 
+                in this increasing inflational economy worldwide. Our services are door to door processes done technologically. All you need is internet connection and your device and get to us, we will do the 
+                rest for you. <br><br> SAN DIEGO CHAPTER LTD. has been in the system since 2018 and has increasingly helped various custoers who have come in contact with it. <br><br> For more references, you can visit our testimonial 
+                videos on our youtube channel provided below the page </label>
+            </p>
+        </div>
+    </div>
+
+    <br><br><br>
+    <h1 id="estate"> OUR VARIOUS DEPARTMENTS  </h1>
+    <div class="estate">
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 1.jpg" alt="">
+                <h2> San Diago Chp. Kantama Estate </h2>
+                <label> Located in Southern Kaneshie </label>
+            </a> 
+        </div>
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 2.jpg" alt="">
+                <h2> San Diago Chp. Madina Estate </h2>
+                <label> Located in Central Madina </label>
+            </a> 
+        </div>
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 3.jpg" alt="">
+                <h2> San Diago Chp. Kumasi Estate </h2>
+                <label> Located in Eastern Kumasi </label>
+            </a> 
+        </div>
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 4.jpg" alt="">
+                <h2> San Diago Chp. Accra Estate </h2>
+                <label> Located in Western Accra </label>
+            </a> 
+        </div>
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 5.jpg" alt="">
+                <h2> San Diago Chp. Buduburam Estate </h2>
+                <label> Located in  Eastern Gomoa District </label>
+            </a> 
+        </div>
+        <div class="sub-est">
+            <a href=""> 
+                <img src="est 6.jpg" alt="">
+                <h2> San Diago Chp. Tema Estate </h2>
+                <label> Located in the Costal Belt-Tema </label>
+            </a> 
+        </div>
+    </div>
+    <br><br><br>
+    <h1 id="services"> SERVICES WE PROVIDE  </h1>
+    <div class="service">
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 1.jpg" alt="">
+                <h2> Child Care </h2>
+                <label> We Provide you childcare services </label>
+            </a> 
+        </div>
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 2.jpg" alt="">
+                <h2> Room Service </h2>
+                <label> We Provide you room services </label>
+            </a> 
+        </div>
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 3.jpg" alt="">
+                <h2> Internet Connectivity </h2>
+                <label> We Provide you internet connection throughtout your stay </label>
+            </a> 
+        </div>
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 4.jpg" alt="">
+                <h2> Beautiful Nature </h2>
+                <label> We expose you to nature to lighten you up </label>
+            </a> 
+        </div>
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 5.jpg" alt="">
+                <h2> Home Decoration </h2>
+                <label> We Decorate your home to your satisfactions </label>
+            </a> 
+        </div>
+        <div class="sub-ser">
+            <a href=""> 
+                <img src="service 6.jpg" alt="">
+                <h2> Guest Care </h2>
+                <label> We value your invited guest(s) and provide you more spaces </label>
+            </a> 
+        </div>
+    </div>
+    <br><br><br>
+    <h1 id="gallery"> OUR GALLERY </h1>
+    <div class="gallery">
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 1.jpg" alt="">
+                <h2> Cleaness </h2>
+                <label> We are best known and recognized as the cleanest  </label>
+            </a> 
+        </div>
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 2.jpg" alt="">
+                <h2> Private Respect </h2>
+                <label> We respect your Privacies and never interrupt </label>
+            </a> 
+        </div>
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 3.jpg" alt="">
+                <h2> Modernizational Furnitures </h2>
+                <label> We provide our customers westernized home lives </label>
+            </a> 
+        </div>
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 4.jpg" alt="">
+                <h2> Open to Daylight </h2>
+                <label> We know the value of sunlight, we make sure it reaches you </label>
+            </a> 
+        </div>
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 5.jpg" alt="">
+                <h2> Clean Kitchen </h2>
+                <label> We value your health, <br> so we provide you with the best kitchen tools </label>
+            </a> 
+        </div>
+        <div class="sub-gal">
+            <a href=""> 
+                <img src="gallery 6.jpg" alt="">
+                <h2> Backyard Care </h2>
+                <label> We make sure your garage is neet for your <br> vehicle(s) and the backyard is kept clean always  </label>
+            </a> 
+        </div>
+    </div>
+
+    <br><br><br>
+    <h1 id="testimony"> OUR TESTIMONIAL REFERENCES </h1>
+    <div class="testimony">
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 1.JPG" alt="">
+                <h2> JAEMES BROWN </h2>
+                <label> My name is James, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 2.JPG" alt="">
+                <h2> MARY SAMPTON </h2>
+                <label> I am Mary, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 3.JPG" alt="">
+                <h2> SANDRA AURHTOR </h2>
+                <label> My name is Sandra, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 4.JPG" alt="">
+                <h2> OCEAN VIEW </h2>
+                <label> I am Smith and this is my Home - Ocean View, <br> I want to let you know out there that SAN DIEGO <br> CHAPTER LTD. is  one of the best trustworthy 
+                    estate <br> copanies which  I am a living testimony of. Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 5.JPG" alt="">
+                <h2> QUEEN'S PALACE </h2>
+                <label> I am Queen Latifa and this is my palace, I want to let you <br> know out there that SAN DIEGO CHAPTER LTD. is one <br> of the best trustworthy 
+                    estate copanies which I am a living <br> testimony of. Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 6.JPG" alt="">
+                <h2> MC THOMAS JEFFERSON </h2>
+                <label> My name is Thomas, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 7.JPG" alt="">
+                <h2> JUDITH SMITH </h2>
+                <label> I am Judith, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+        <div class="sub-test">
+            <a href=""> 
+                <img src="testimony 8.JPG" alt="">
+                <h2> KWAME ASIEDU </h2>
+                <label> My name is Kwame, I want to let you know out there that <br> SAN DIEGO CHAPTER LTD. is one of the best trustworthy <br> 
+                    estate copanies which I am a living testimony of. <br> Watch this video and listen to my full stories  </label>
+            </a> 
+        </div>
+
+    </div>
+
+    <br><br><br>
+    <h1 id="contact"> CONTACT US  </h1>
+    <br><br>
+     <img src="contact us.png" alt="" style="width: 100%;">
+    
+    
+    
+
+    
+</body>
+</html>
